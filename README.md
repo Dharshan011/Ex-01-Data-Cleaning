@@ -19,6 +19,11 @@ Remove the null values from the data
 Save the Clean data to the file
 
 # CODE
+```
+NAME: DHARSHAN V
+REG NO: 212222230031
+```
+```
 import pandas as pd
 df=pd.read_csv("Data_set.csv")
 print(df)
@@ -37,6 +42,7 @@ df['watchers']=df['watchers'].fillna(df['watchers'].median())
 df.head()
 df.info()
 df.isnull().sum()
+```
 # OUPUT
 
 Data:
